@@ -53,6 +53,11 @@
   --sidebar-ring: oklch(0.705 0.015 286.067 / 50%);
 }
 
+/* Set RTL direction for the entire app */
+html {
+  direction: rtl;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -277,6 +282,7 @@ button:focus-visible {
     @apply bg-background text-foreground;
   }
 }
+
 /* Add animation keyframes */
 @keyframes fadeIn {
   from {

@@ -13,7 +13,7 @@ function App() {
         <CartProvider>
           <NotificationProvider>
             <Router>
-              <div dir="rtl" className="app-container">
+              <div className="app-container">
                 <div className="app-background" />
                 <AppRoutes />
                 <Toaster />
